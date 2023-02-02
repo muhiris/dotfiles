@@ -1,25 +1,25 @@
 -- General functionallity and apperence
-require "mbfsNeovim.options"
-require "mbfsNeovim.keybindings"
-require "mbfsNeovim.plugins"
-require "mbfsNeovim.lualine"
-require "mbfsNeovim.colorschemes"
-require "mbfsNeovim.telescope"
-require "mbfsNeovim.alpha"
-require "mbfsNeovim.nvim-tree"
-require "mbfsNeovim.bufferline"
+require "haris.options"
+require "haris.keybindings"
+require "haris.plugins"
+require "haris.lualine"
+require "haris.colorschemes"
+require "haris.telescope"
+require "haris.alpha"
+require "haris.nvim-tree"
+require "haris.bufferline"
 
 -- Completion engine and Leungage server
-require "mbfsNeovim.cmp"
---require "mbfsNeovim.formatter"
---require "mbfsNeovim.lsp"
+require "haris.cmp"
+--require "haris.formatter"
+--require "haris.lsp"
 
 -- Programming
-require "mbfsNeovim.autopairs"
-require "mbfsNeovim.treesitter"
-require "mbfsNeovim.gitsigns"
-require "mbfsNeovim.comments"
-require "mbfsNeovim.toggleterm"
+require "haris.autopairs"
+require "haris.treesitter"
+require "haris.gitsigns"
+require "haris.comments"
+require "haris.toggleterm"
 
 
 
