@@ -1,0 +1,1 @@
+/home/haris/Downloads/configs-master/i3_config
