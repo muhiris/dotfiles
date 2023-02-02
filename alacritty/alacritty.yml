@@ -1,0 +1,13 @@
+window:
+  opacity: 0.98
+  padding:
+    x: 20
+    y: 5
+  dynamic_padding: false
+  decorations: full
+
+font:
+  normal:
+   family: "CaskaydiaCove Nerd Font"
+   style: SemiBold
+   size: 26.0
