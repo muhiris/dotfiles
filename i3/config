@@ -207,7 +207,7 @@ bindsym $mod+c exec --no-startup-id code
 # finds out, if available)
 bar {
        position bottom
-       status_command SCRIPT_DIR=~/.config/i3/i3blocks/scripts i3blocks -c /home/haris/.config/i3/i3blocks/config
+       status_command SCRIPT_DIR=~/.config/i3/i3blocks/scripts i3blocks -c $HOME/.config/i3/i3blocks/config
 
 colors {
 		background $bg-color
@@ -220,4 +220,4 @@ colors {
 }
 
 #exec --no-startup-id compton -m 0.5 -f
-exec_always --no-startup-id feh --bg-scale /home/haris/Pictures/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale $HOME/Pictures/wallpaper.jpg
