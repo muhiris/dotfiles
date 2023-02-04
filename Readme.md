@@ -35,7 +35,7 @@ chsh -s $(which zsh)
 >Have to unzip there or paste manually
 ```console
 mkdir ~/.local/share/fonts
-mv CascadiaCode_Nerd Font ~/.local/share/fonts
+mv "CascadiaCode_Nerd Font" ~/.local/share/fonts
 sudo fc-cache -fv
 ```
 
