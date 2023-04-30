@@ -13,14 +13,24 @@ cd alacritty
 rustup override set stable
 rustup update stable
 sudo apt-get install cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3
+sudo apt install cargo
 cargo build --release
+# To Check If allacritty is installed correctly
+# sudo tic -xe alacritty,alacritty-direct extra/alacritty.info
+# infocmp alacritty
 sudo cp target/release/alacritty /usr/local/bin # or anywhere else in $PATH
 sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
 sudo desktop-file-install extra/linux/Alacritty.desktop
 sudo update-desktop-database
 curl -sS https://starship.rs/install.sh | sh
 ```
-> Note: Move the   `starship.toml` file from alacritty Folder to `$HOME/.config`
+> Note: Move the `starship.toml` file from alacritty Folder to `$HOME/.config`
+
+> Add the following to the end of `~/.bashrc` :
+```console
+eval "$(starship init bash)"
+```
+
 
 
 ## ZSH - Ohmyzsh Installation
