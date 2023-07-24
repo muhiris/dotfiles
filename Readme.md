@@ -54,10 +54,9 @@ sudo fc-cache -fv
 sudo apt install pip
 pip install xcffib
 pip install qtile
-sudo apt-get install qtile
-cd /usr/share/xsessions/
-touch qtile.desktop
-echo "[Desktop Entry]
+sudo cd /usr/share/xsessions/
+sudo touch qtile.desktop
+sudo echo "[Desktop Entry]
 Name=Qtile
 Comment=Qtile Session
 Exec=qtile start
@@ -65,6 +64,12 @@ Type=Application
 Keywords=wm;tiling" >> qtile.desktop
 ```
 
+> Add the following to the start of `~/.bashrc` :
+```console
+PATH=$HOME/.local/bin:$PATH
+```
+
+Add this path to .bashrc file  
 ## i3 Installation
 ```console
 sudo apt install i3
