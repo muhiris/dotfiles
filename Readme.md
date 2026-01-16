@@ -8,6 +8,7 @@ sudo apt install build-essentials git
 ## Alacritty Installation
 
 ```console
+sudo apt install alacritty -y
 git clone https://github.com/alacritty/alacritty.git
 cd alacritty
 rustup override set stable
