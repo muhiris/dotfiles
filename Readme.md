@@ -47,7 +47,7 @@ chsh -s $(which zsh)
 ```console
 mkdir ~/.local/share/fonts
 mv "CascadiaCode_Nerd Font" ~/.local/share/fonts
-sudo fc-cache -fv
+fc-cache -fv
 ```
 
 ## Qtile Installation
